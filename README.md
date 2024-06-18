@@ -16,5 +16,6 @@ For LLVM:
 > [!NOTE]
 >> * [ python  llvm_ir.py  path_to_TinyC_file ]  -- генерация .ll  файла, содержащего LLVM IR соответствующего .tc файла; <br/>
 >> * [ python  executor.py  path_to_ll_file ] -- запуск сгенерированного .ll файла с помощью llvmlite (LLVM); <br/>
+
 > [!NOTE]
 >> С помощью запуска файла [ auto_start.py ] можно автоматизировать выполнение предыдущих двух команд <br/>
