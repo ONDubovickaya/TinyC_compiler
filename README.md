@@ -13,7 +13,8 @@ For LLVM:
 Генерация Parser, Lexer, Listener и Visitor:
 * antlr4 -Dlanguage=Python3 antlr_parser/TinyC.g4 -o antlr_parser -visitor
 
-> [!NOTE]
+> [!NOTE1]
 >> * [ python  llvm_ir.py  path_to_TinyC_file ]  -- генерация .ll  файла, содержащего LLVM IR соответствующего .tc файла; <br/>
 >> * [ python  executor.py  path_to_ll_file ] -- запуск сгенерированного .ll файла с помощью llvmlite (LLVM); <br/>
-С помощью запуска файла [ auto_start.py ] можно автоматизировать выполнение предыдущих двух команд <br/>
+> [!NOTE2]
+>> С помощью запуска файла [ auto_start.py ] можно автоматизировать выполнение предыдущих двух команд <br/>
