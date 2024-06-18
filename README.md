@@ -14,6 +14,6 @@ For LLVM:
 * antlr4 -Dlanguage=Python3 antlr_parser/TinyC.g4 -o antlr_parser -visitor
 
 > [!NOTE]
-> > ***python llvm_ir.py path_to_TinyC_file***  -- генерация .ll  файла, содержащего LLVM IR соответствующего .tc файла <br/>
-> >> ***python executor.py path_to_ll_file*** -- запуск сгенерированного .ll файла с помощью llvmlite (LLVM) <br/>
-> >>> с помощью запуска файла ***auto_start.py*** можно автоматизировать выполнение предыдущих двух команд <br/>
+> [***python llvm_ir.py path_to_TinyC_file***]  -- генерация .ll  файла, содержащего LLVM IR соответствующего .tc файла <br/>
+> [***python executor.py path_to_ll_file***] -- запуск сгенерированного .ll файла с помощью llvmlite (LLVM) <br/>
+> с помощью запуска файла [***auto_start.py***] можно автоматизировать выполнение предыдущих двух команд <br/>
